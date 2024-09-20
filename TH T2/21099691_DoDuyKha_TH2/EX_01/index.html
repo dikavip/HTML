@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 1</title>
+    <!-- reset css  -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+
+    <!-- Embed font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- style css  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script>
+        function showMore() {
+            //removes the link
+            document.getElementById('link').parentElement.removeChild('link');
+            //shows the #more
+            document.getElementById('more').style.display = "block";
+        }
+    </script>
+</head>
+
+<body style="height: 1000px;">
+    <div class="container">
+        <header class="header">
+            <h1 class="main__heading">EXAMPLE CAFE MENU</h1>
+        </header>
+        <div class="hero__inner">
+            <img src="./assets/img/home.png" alt="" class="nav__icon">
+            <nav class="nav__top">
+                <ul class="nav__top-list">
+                    <li class="nav__top-item">
+                        <a href="#!" class="nav__top-link">STARTER</a>
+                    </li>
+                    <li class="nav__top-item">
+                        <a href="#!" class="nav__top-link">MAIN COURSES</a>
+                    </li>
+                    <li class="nav__top-item">
+                        <a href="#!" class="nav__top-link">DESSERTS</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input type="text" name="" id="" class="space__search">
+                <button>go</button>
+            </div>
+        </div>
+        <main>
+            <div class="main__inner">
+                <nav class="nav__left">
+                    <ul class="nav__left-list">
+                        <li class="nav__left-item">
+                            <a href="#!" class="nav__left-link">Cafe Latte</a>
+                        </li>
+                        <li class="nav__left-item">
+                            <a href="#!" class="nav__left-link">Capuchino</a>
+                        </li>
+                        <li class="nav__left-item">
+                            <a href="#!" class="nav__left-link">Ocean Blue</a>
+                        </li>
+                        <li class="nav__left-item">
+                            <a href="#!" class="nav__left-link">Ice-cream Cafe</a>
+                        </li>
+                        <li class="nav__left-item">
+                            <a href="#!" class="nav__left-link">Order Online</a>
+                        </li>
+                    </ul>
+                    <img src="./assets/img/company.png" alt="" class="nav__img">
+                </nav>
+                <section class="section">
+                    <article class="article__top">
+                        <h2 class="sub__heading">S t a r t e r</h2>
+                        <ul class="article__list">
+                            <li class="article__item">
+                                <a href="#!" class="article__link">
+                                    Chesnut and Mushroom Goujons
+                                    <b class="color__red">(v)</b>
+                                </a>
+                            </li>
+                            <li class="article__item">
+                                <a href="#!" class="article__link">
+                                    Goat Cheese
+                                    <b class="color__red">(v)</b>
+                                </a>
+                            </li>
+                            <li class="article__item">
+                                <a href="#!" class="article__link article__link-color">
+                                    HONEY SOY CHICKEN KEBABS<b class="color__red">(V)</b>
+                                </a>
+                            </li>
+                            <li class="article__item">
+                                <a href="#!" class="article__link">
+                                    Seafood Salad
+                                    <b class="color__red">(v)</b>
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="#" class="bt__top">Back to Top</a>
+
+                        <h2 class="sub__heading">D e s s e r t s</h2>
+
+                        <ul class="article__list">
+                            <li class="article__item">
+                                <a href="#!" class="article__link">
+                                    Lemon Sorbet
+                                    <b class="color__red">(v)</b>
+                                </a>
+                            </li>
+                            <li class="article__item">
+                                <a href="#!" class="article__link">
+                                    Chocolate Mud Pie
+                                    <b class="color__red">(v)</b>
+                                </a>
+                            </li>
+                            <li class="article__item">
+                                <a href="#!" class="article__link">
+                                    Pecan Pie
+                                    <b class="color__red">(v)</b>
+                                </a>
+                            </li>
+                            <li class="article__item">
+                                <a href="#!" class="article__link">
+                                    selection of fine Cheeses from Around the World
+                                    <b class="color__red">(v)</b>
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="#" class="bt__top">Back to Top</a>
+                        <h2 class="sub__heading">I N F O R M A T I O N</h2>
+                    </article>
+
+                    <article class="article__bottom">
+                        <form autocomplete="off" action="" class="form">
+                            <div class="form__row">
+                                <div class="form__group">
+                                    <input class="from__input" type="text" name="First Name" id=""
+                                        placeholder="First Name">
+                                </div>
+                                <div class="form__group">
+                                    <input class="from__input" type="text" name="Last Name" id=""
+                                        placeholder="Last Name">
+                                </div>
+                            </div>
+
+                            <div class="form__row">
+                                <div class="form__group">
+                                    <input class="from__input" type="email" name="Email" id="" placeholder="Email">
+                                </div>
+                                <div class="form__group">
+                                    <input class="from__input" type="tel" name="Telephone" id=""
+                                        placeholder="Telephone">
+                                </div>
+                            </div>
+
+                            <div class="form__row">
+                                <div class="form__group">
+                                    <select class="from__input" name="country" id="">
+                                        <option value="1">USA</option>
+                                        <option value="2">Russian</option>
+                                        <option value="3">VIET NAM</option>
+                                    </select>
+                                </div>
+                                <div class="form__group form__group-radio">
+                                    <div class="radio-btn">
+                                        <input type="radio" name="language" id="Vietnamese">
+                                        <label for="Vietnamese">Vietnamese</label>
+                                    </div>
+                                    <div class="radio-btn">
+                                        <input type="radio" name="language" id="Foreigner">
+                                        <label for="Vietnamese">Foreigner</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form__row">
+                                <textarea class="form-textarea" name="" id="" rows="3">Comment</textarea>
+                            </div>
+
+                            <div class="form__row" style="gap: 3px;">
+                                <input type="submit" value="submit">
+                                <button>cancel</button>
+                            </div>
+                        </form>
+                    </article>
+                </section>
+                <aside class="aside">
+                    <div class="aside__bg">
+                        <h2 class="aside__heading">Events</h2>
+                        <div class="aside__meeting">
+                            <h3 class="aside__sub-heading">
+                                Regular Meetings
+                            </h3>
+                            <img src="./assets/img/meeting.png" alt="" class="img__aside">
+                            <p class="aside__desc">
+                                Host your regular team meetings or activities
+                                in the comfort of your own private room.
+                                <a class="aside__more" href="#!" id="link">Read More...</a>
+                            </p>
+
+                        </div>
+                        <div class="aside__company">
+                            <h3 class="aside__sub-heading">
+                                Product Launches
+                            </h3>
+                            <img src="./assets/img/company.png" alt="" class="img__aside">
+                            <p class="aside__desc">
+                                Launch your product with ease in a space that truly fits its image.
+                                <a href="#!" class="aside__more">Read more...</a>
+                            </p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </main>
+        <footer>ABC Company <span class="margin__top">©</span> - 12345678 - abccoffee@gmail.com</footer>
+    </div>
+</body>
+
+</html>
