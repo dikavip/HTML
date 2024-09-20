@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+}
+
+.container {
+    width: 1000px;
+    padding: 5px;
+    border: 2px solid #ccc;
+}
+
+section,
+header {
+    padding-bottom: 10px;
+}
+
+h1 {
+    padding: 20px 0;
+}
+
+p {
+    margin-top: 10px;
+}

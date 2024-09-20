@@ -1,0 +1,16 @@
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+.center {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.padd {
+    margin: 100px;
+}
